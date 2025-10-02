@@ -6,6 +6,7 @@ on:
       - master   # pipeline runs only when you push to main branch
 
 jobs:
+
   build-and-push:
     runs-on: ubuntu-latest
     steps:
