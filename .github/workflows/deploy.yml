@@ -3,7 +3,7 @@ name: React CI/CD Pipeline
 on:
   push:
     branches:
-      - main   # pipeline runs only when you push to main branch
+      - master   # pipeline runs only when you push to main branch
 
 jobs:
   build-and-push:
